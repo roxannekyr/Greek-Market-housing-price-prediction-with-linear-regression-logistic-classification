@@ -49,7 +49,7 @@ Beyond the raw features, the following were derived to improve model fit:
 | Metric | Value |
 |---|---|
 | R² Score | **0.513** |
-| Durbin-Watson | 1.998 ✅ (no autocorrelation) |
+| Durbin-Watson | 1.998 (no autocorrelation) |
 | VIF | < 5 for most features (multicollinearity acceptable) |
 | Observations | 183,348 |
 | Validation | 5-Fold Cross-Validation |
