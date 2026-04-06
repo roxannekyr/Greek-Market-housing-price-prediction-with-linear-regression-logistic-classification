@@ -97,7 +97,3 @@ Binary target: `Expensive = 1` if `price > median`, else `0`
 - **Why not use IQR alone for outliers?** Applied to 300K rows, standard IQR flagged 13,000+ rows as outliers — a mass removal that would introduce selection bias. Log transformation followed by a wider fence was the better-calibrated approach.
 - **Ridge/Lasso relevance?** With VIF largely under control and ~183K observations, regularisation adds limited value here. It becomes more relevant if the feature set is expanded (e.g., adding neighbourhood-level aggregates).
 - **Class imbalance in classification:** A 55/45 split between expensive/non-expensive in the test set is mild. SMOTE would be the next step if recall on the non-expensive class needs improvement.
-
-## About
-
-Built as part of an applied ML assignment on real-world Greek cadastral data.
