@@ -27,7 +27,7 @@ Part 1 — Data Cleaning & EDA (`300K rows → 183K clean observations`)
 | Missing values in `floor` | Imputed with column median |
 | Missing values in `base_price` | Hierarchical imputation: area → city → region median |
 | Outliers in `price` (target) | IQR on log-transformed values; extreme fence at 3×IQR |
-| Floor encoding | Basement floor `"Υ"` → `-1`; capped at 7th floor |
+| Floor encoding | Basement floor `"Υ"` converted to `-1`; capped at 7th floor |
 | Skewed distributions | Log transformation applied to `base_price`, `main_area_sqm`, `price` |
 | Greek column names | Mapped to clean English equivalents for reproducibility |
 
