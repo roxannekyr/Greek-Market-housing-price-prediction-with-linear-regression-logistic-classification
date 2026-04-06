@@ -5,8 +5,8 @@
 
 This project applies supervised machine learning to a large-scale dataset of Greek property transactions to answer two commercially relevant questions:
 
-1. **What is a property worth?** — Continuous price prediction via Linear Regression
-2. **Is this property expensive?** — Binary classification via Logistic Regression
+1. **What is a property worth?** : Continuous price prediction with Linear Regression
+2. **Is this property expensive?** : Binary classification with Logistic Regression
 
 The dataset contains **304,206 real estate transactions** across Greek municipalities, making this a production-scale modelling exercise rather than a toy example.
 
