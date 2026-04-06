@@ -68,7 +68,7 @@ Binary target: `Expensive = 1` if `price > median`, else `0`
 | Metric | Value |
 |---|---|
 | ROC-AUC | **0.854** |
-| Recall (Expensive class) | **83.3%** — catches 4 in 5 expensive properties |
+| Recall (Expensive class) | **83.3%** : Practically meaning model catches 4 in 5 expensive properties! |
 | CV Stability | Std ±0.002 across 5 folds |
 | Validation | 5-Fold Cross-Validation |
 
