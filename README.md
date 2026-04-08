@@ -1,4 +1,4 @@
-# Greek Real Estate Price Intelligence
+# Greek Real Estate Price Prediction
 ### Predictive Modelling on 300K+ Property Transactions with Linear & Logistic Regression 
 
 ## Project Overview
